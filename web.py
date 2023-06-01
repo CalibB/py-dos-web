@@ -16,8 +16,8 @@ def add_todo():
     st.session_state['new_todo'] = ''
 
 
-st.title('Py Dos')
-st.subheader("From the most widespread snake.")
+st.title("Py Do's!")
+st.subheader("Your simplistic todo web-app.")
 
 for index, todo in enumerate(todos):
     tamed_todo = todo.strip('\n')
